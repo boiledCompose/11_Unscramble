@@ -15,7 +15,6 @@ import kotlinx.coroutines.flow.update
 
 /*created an extended ViewModel class*/
 class GameViewModel: ViewModel() {
-    val currentScrambledWord: String = ""
 
     private val _uiState = MutableStateFlow(GameUiState())
 

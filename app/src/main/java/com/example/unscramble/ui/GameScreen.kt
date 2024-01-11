@@ -195,7 +195,7 @@ fun GameLayout(
                     unfocusedContainerColor = colorScheme.surface,
                     disabledContainerColor = colorScheme.surface,
                 ),
-                onValueChange = { },
+                onValueChange = onUserGuessChanged,
                 label ={
                     if (isGuessWrong) {
                         Text(stringResource(R.string.wrong_guess))
